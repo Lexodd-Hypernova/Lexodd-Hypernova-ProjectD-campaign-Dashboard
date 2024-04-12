@@ -1,8 +1,9 @@
-import "./Dates.css";
 import React, { useState, useEffect, useRef } from "react";
 import { useNavigate } from "react-router-dom";
 import { IoIosArrowDown, IoIosArrowUp } from "react-icons/io";
 import OffLogo from "../assets/official-logo.png";
+import BxBox from "./home-box/BxBox";
+import "./Dates.css";
 
 const Dates = () => {
   const navigate = useNavigate();
@@ -144,6 +145,12 @@ const Dates = () => {
             )}
           </div>
         ))}
+      </div>
+      <div className="bx-box-container">
+        <BxBox first="Impressions" second="47,91,592" third="March and April" />
+        <BxBox first="Clicks" second="86,618" third="March and April" />
+        <BxBox first="Cost" second="4,79,026" third="March and April" />
+        <BxBox first="Impressions" second="23,95,132" third="March and April" />
       </div>
     </>
   );

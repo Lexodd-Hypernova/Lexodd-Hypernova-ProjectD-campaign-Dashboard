@@ -1,19 +1,21 @@
 .footer-container {
   position: relative;
+  padding: 30px 0;
 }
 
 .footer-insider {
-  position: fixed;
+  position: relative;
   bottom: 0;
   width: 100%;
   text-align: center;
+  padding: 5px 0;
 }
 
 .footer-insider-right {
   font-size: 14px;
-  position: fixed;
+  position: absolute;
   bottom: 0;
   width: 100%;
   text-align: right;
-  padding: 0 20px 0 0;
+  padding: 5px 15px;
 }
