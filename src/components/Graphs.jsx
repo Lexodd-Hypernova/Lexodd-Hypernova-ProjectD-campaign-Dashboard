@@ -13,7 +13,7 @@ import OverviewCards from "./OverviewCards.jsx";
 const Graphs = () => {
   const location = useLocation();
   const data = location.state;
-  const month=data.month.split(" ")[0];
+  const month = data.month.split(" ")[0];
 
   const APdatasetKey = `${data.option}_APGraphsData_${month}`;
   const DIdatasetKey = `${data.option}_DIdata_${month}`;
@@ -79,7 +79,7 @@ const Graphs = () => {
         </div>
         <div className={styles.graphCard}>
           <div className={styles.graphTitleContainer}>
-            <h2 className={styles.graphTitle}>Daily Cost</h2>
+            <h2 className={styles.graphTitle}>Daily Clicks</h2>
             <div
               className={styles.colorIndicator}
               style={{
@@ -88,11 +88,11 @@ const Graphs = () => {
               }}
             />
           </div>
-          <LineGraph data={DCLdata}/>
+          <LineGraph data={DCLdata} />
         </div>
         <div className={styles.graphCard}>
           <div className={styles.graphTitleContainer}>
-            <h2 className={styles.graphTitle}>Daily Cost</h2>
+            <h2 className={styles.graphTitle}>Daily Clicks</h2>
             <div
               className={styles.colorIndicator}
               style={{

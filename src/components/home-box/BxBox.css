@@ -1,0 +1,14 @@
+.bx-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: #fff;
+  height: fit-content;
+  margin: 30px auto;
+  width: calc(100vw - 300px);
+}
+
+.bx-box h2,
+.bx-box h3 {
+  padding: 10px 35px;
+}
